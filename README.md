@@ -1,5 +1,7 @@
 # golf-solitiare-console
-This is an implementation of [Golf Solitaire]([url](https://en.wikipedia.org/wiki/Golf_(patience))) using the Windows console as a platform, assembled entirely from C++.
+This is an implementation of [Golf Solitaire](https://en.wikipedia.org/wiki/Golf_(patience)) using the Windows console as a platform, assembled entirely from C++.
+<img width="412" height="268" alt="golfProgramScreen" src="https://github.com/user-attachments/assets/4a12c35d-0eb2-498e-b7a7-43ff2a63cb08" />
+
 # Installation
 1. Download the latest release of this repository.
 2. Extract the files from the zipped folder.
