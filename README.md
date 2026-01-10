@@ -12,8 +12,22 @@ All inputs are entered into the console.
 0,1,2,3,4,5,6 = columns of the tableau
 
 All letter inputs are case-sensitive - uppercase D, U, R, Q, N do not work.
-- d = draw from tableau
+- d = draw from stock (face-down cards)
 - u = undo move
 - r = restart game
 - q = quit game
 - n = start a new game
+
+# Rules / How to Play
+A standard 52-card deck is split into a "tableau" consisting of 7 columns of 5 faceup cards, 1 faceup card as the base of the foundation, and 16 cards facedown to form the stock.
+
+Each turn you can do one of the following:
+
+- Take the bottom card of any one of the tableau's seven columns and put it on top of the wastepile. This can only be done under certain conditions.
+- Draw a card from the stock, putting a new card on top of the wastepile.
+
+The conditions under which a card in the tableau may be moved to the wastepile if it has a rank either one higher or one lower than the card on top of the foundation. The suit of the cards is irrelevant.
+
+The ranks are orderered in standard order: **A 2 3 4 5 6 7 8 9 10 J Q K**. Although traditional versions of Golf prohibit the playing of Queens onto Kings and "wrapping" - playing Kings on top of Aces or Aces on top of Kings - my implementation is significantly more relaxed, allowing for both plays mentioned.
+
+The objective of the game is to clear the tableau by playing all of the cards to the foundation. No redeals are allowed: if the talon is exhausted, cards are still present in the tableau, and no more possible moves exist, you lose the game, although you can always undo your moves to try alternate approaches.
