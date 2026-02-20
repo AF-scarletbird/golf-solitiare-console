@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1755555624 source:c:\users\aweso\c++\golfsolitaireconsole\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+	<algorithm>
+	"shuffler.cpp"
+	<bits/stdc++.h>
+
+1755540502 source:c:\users\aweso\c++\golfsolitaireconsole\shuffler.cpp
+
